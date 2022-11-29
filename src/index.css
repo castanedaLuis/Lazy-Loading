@@ -1,3 +1,57 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px !important;
+    border-radius: 20px;
+    width: 210px;
+    height: 44px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.github:hover{
+    transition: all 1s ease;
+    background-color: #001E50;
+    color: white;
+}
+
+#botonAgregar{
+    cursor: pointer;
+    background-color: #001E50;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+}
+#botonAgregar:hover{
+    background-color: white;
+    color: #001E50;
+    border: black solid 2px;
+}
+
+#botonClean{
+    width: 150px;
+    cursor: pointer;
+    background-color: #001E50;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 25px;
+}
+#botonClean:hover{
+    background-color: white;
+    color: #001E50;
+    border: black solid 2px;
+}
+
+#images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
